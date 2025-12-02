@@ -1,3 +1,156 @@
-.para1{
-    color: blueviolet;
+.signup{
+     height:300px;
+    width:250px;
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+    gap:25px;
+    
+    margin-left: 50px;
+    margin-top:50px;
+}
+.signup-container{
+ 
+    height:100vh;
+    display:flex;
+   background-color: white;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.iw89D3BEpCnoVITQ8UXp6QHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+     
+}
+.data{
+    width: 100%;
+    display:flex;
+    flex-direction: column ;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+  
+}
+.data-input{
+    border:none;
+    border-radius:5px;
+height:25px;
+}
+
+.but{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    color:azure;
+  
+}
+
+
+
+body{
+    margin: 0;
+    padding:0;
+}
+.header-container{
+    background-color: black;
+   display: flex;
+   justify-content: space-around;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius:25px;
+}
+.logo-container{
+   height: 75px;
+   width:75px;
+   object-fit:contain;
+   padding-right: 900px;
+}
+.head-item{
+    display:flex;
+    gap:25px;
+    color:wheat;
+}
+
+.head-item li{
+    list-style: none;
+    font-size:20px;
+
+}
+.head-container{
+    display:flex;
+    align-items: center;
+}
+
+
+.login{
+   height:300px;
+    width:250px;
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+    gap:25px;
+   
+    margin-left: 50px;
+    margin-top:50px;
+   
+ 
+     
+}
+.login-container{
+ 
+    height:100vh;
+    display:flex;
+   background-color: white;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://i.pinimg.com/736x/f9/d2/a2/f9d2a24ceb34973b51f7c8957e90b799.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.data{
+    
+    width: 100%;
+    display:flex;
+    flex-direction: column ;
+    gap:10px;
+    justify-content: center;
+    align-items: center
+    
+
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#home {
+  display: flex;             
+  justify-content: space-around; 
+  flex-wrap: wrap;           
+  padding: 20px;
+}
+
+.image-box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
 }
